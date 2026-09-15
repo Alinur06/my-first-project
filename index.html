@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart TSON - Госуслуги без очередей</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f7f6; color: #333; padding: 50px; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 500px; margin: auto; }
+        h1 { color: #0056b3; }
+        .status { padding: 15px; margin: 15px 0; border-radius: 5px; font-weight: bold; }
+        .green { background-color: #d4edda; color: #155724; }
+        .red { background-color: #f8d7da; color: #721c24; }
+        button { background-color: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #004494; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🏛️ Smart TSON</h1>
+        <p>Найдите ЦОН с самой короткой очередью прямо сейчас</p>
+        
+        <div class="status green">
+            📍 ЦОН Есильского района — Свободно (Ожидание: ~5 мин)
+        </div>
+        
+        <div class="status red">
+            📍 ЦОН Алматинского района — Сильно загружен (Ожидание: ~45 мин)
+        </div>
+
+        <button>Найти ближайший ЦОН</button>
+    </div>
+
+</body>
+</html>
